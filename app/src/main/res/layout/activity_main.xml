@@ -369,6 +369,7 @@
             android:id="@+id/card0"
             app:layout_constraintTop_toBottomOf="@id/card2"
             app:layout_constraintLeft_toRightOf="@id/card00"
+            app:layout_constraintBottom_toBottomOf="parent"
             android:layout_width="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
@@ -389,7 +390,7 @@
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/card9"
             app:layout_constraintTop_toBottomOf="@id/card_bracket2"
-            app:layout_constraintLeft_toRightOf="@id/card8"
+            app:layout_constraintRight_toRightOf="parent"
             android:layout_width="wrap_content"
             android:layout_marginStart="12dp"
             android:layout_marginTop="10dp"
@@ -476,6 +477,7 @@
         android:layout_width="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/operation_field"
         app:layout_constraintRight_toRightOf="parent"
+
         android:background="@color/purple_500"
         android:padding="20dp"
         app:layout_constraintLeft_toRightOf="@id/number_constraint"
