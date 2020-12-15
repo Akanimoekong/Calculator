@@ -134,9 +134,10 @@
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/number_constraint"
         android:layout_width="wrap_content"
-        android:background="@color/purple_500"
-        android:padding="20sp"
+        android:background="@color/purple_600"
+        android:padding="20dp"
         app:layout_constraintLeft_toLeftOf="@id/operation_field"
         app:layout_constraintTop_toBottomOf="@id/operation_field"
         android:layout_height="wrap_content">
@@ -151,13 +152,13 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:layout_width="70dp"
+                android:layout_width="80dp"
                 android:text="%"
                 android:textColor="@color/white"
                 android:gravity="center"
                 android:textSize="40sp"
                 android:textStyle="bold"
-                android:layout_height="70dp"/>
+                android:layout_height="80dp"/>
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView
@@ -171,13 +172,13 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:layout_width="70dp"
+                android:layout_width="80dp"
                 android:text="7"
                 android:textColor="@color/white"
                 android:gravity="center"
                 android:textSize="40sp"
                 android:textStyle="bold"
-                android:layout_height="70dp"/>
+                android:layout_height="80dp"/>
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView
@@ -191,13 +192,13 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:layout_width="70dp"
+                android:layout_width="80dp"
                 android:text="4"
                 android:textColor="@color/white"
                 android:gravity="center"
                 android:textSize="40sp"
                 android:textStyle="bold"
-                android:layout_height="70dp"/>
+                android:layout_height="80dp"/>
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView
@@ -211,13 +212,13 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:layout_width="70dp"
+                android:layout_width="80dp"
                 android:text="1"
                 android:textColor="@color/white"
                 android:gravity="center"
                 android:textSize="40sp"
                 android:textStyle="bold"
-                android:layout_height="70dp"/>
+                android:layout_height="80dp"/>
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView
@@ -231,13 +232,13 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:layout_width="70dp"
+                android:layout_width="80dp"
                 android:text="00"
                 android:textColor="@color/white"
                 android:gravity="center"
                 android:textSize="40sp"
                 android:textStyle="bold"
-                android:layout_height="70dp"/>
+                android:layout_height="80dp"/>
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView
@@ -251,13 +252,13 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:layout_width="70dp"
+                android:layout_width="80dp"
                 android:text="("
                 android:textColor="@color/white"
                 android:gravity="center"
                 android:textSize="40sp"
                 android:textStyle="bold"
-                android:layout_height="70dp"/>
+                android:layout_height="80dp"/>
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView
@@ -271,6 +272,27 @@
             android:layout_height="wrap_content">
 
             <TextView
+                android:layout_width="80dp"
+                android:text=")"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:layout_height="80dp"/>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card8"
+            app:layout_constraintTop_toBottomOf="@id/card_bracket1"
+            app:layout_constraintLeft_toRightOf="@id/card7"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius= "55dp"
+            app:cardBackgroundColor="@color/purple_700"
+            android:layout_height="wrap_content">
+
+            <TextView
                 android:layout_width="70dp"
                 android:text="("
                 android:textColor="@color/white"
@@ -278,6 +300,295 @@
                 android:textSize="40sp"
                 android:textStyle="bold"
                 android:layout_height="70dp"/>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_eight"
+            app:layout_constraintTop_toBottomOf="@id/card_bracket1"
+            app:layout_constraintLeft_toRightOf="@id/card7"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius= "55dp"
+            app:cardBackgroundColor="@color/purple_700"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="80dp"
+                android:text="8"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:layout_height="80dp"/>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card5"
+            app:layout_constraintTop_toBottomOf="@id/card8"
+            app:layout_constraintLeft_toRightOf="@id/card4"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius= "55dp"
+            app:cardBackgroundColor="@color/purple_700"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="80dp"
+                android:text="5"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:layout_height="80dp"/>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card2"
+            app:layout_constraintTop_toBottomOf="@id/card5"
+            app:layout_constraintLeft_toRightOf="@id/card1"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius= "55dp"
+            app:cardBackgroundColor="@color/purple_700"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="80dp"
+                android:text="2"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:layout_height="80dp"/>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card0"
+            app:layout_constraintTop_toBottomOf="@id/card2"
+            app:layout_constraintLeft_toRightOf="@id/card00"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius= "55dp"
+            app:cardBackgroundColor="@color/purple_700"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="80dp"
+                android:text="0"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:layout_height="80dp"/>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card9"
+            app:layout_constraintTop_toBottomOf="@id/card_bracket2"
+            app:layout_constraintLeft_toRightOf="@id/card8"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius= "55dp"
+            app:cardBackgroundColor="@color/purple_700"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="80dp"
+                android:text="9"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:layout_height="80dp"/>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card6"
+            app:layout_constraintTop_toBottomOf="@id/card9"
+            app:layout_constraintLeft_toRightOf="@id/card5"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius= "55dp"
+            app:cardBackgroundColor="@color/purple_700"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="80dp"
+                android:text="6"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:layout_height="80dp"/>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card3"
+            app:layout_constraintTop_toBottomOf="@id/card6"
+            app:layout_constraintLeft_toRightOf="@id/card2"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius= "55dp"
+            app:cardBackgroundColor="@color/purple_700"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="80dp"
+                android:text="3"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:layout_height="80dp"/>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card."
+            app:layout_constraintTop_toBottomOf="@id/card3"
+            app:layout_constraintLeft_toRightOf="@id/card0"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius= "55dp"
+            app:cardBackgroundColor="@color/purple_700"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="80dp"
+                android:text="."
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:layout_height="80dp"/>
+        </com.google.android.material.card.MaterialCardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/operation_field"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@color/purple_500"
+        android:padding="20dp"
+        app:layout_constraintLeft_toRightOf="@id/number_constraint"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_division"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius= "55dp"
+            app:cardBackgroundColor="@color/purple_700"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="80dp"
+                android:text="/"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:layout_height="80dp"/>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_multiplication"
+            app:layout_constraintTop_toBottomOf="@id/card_division"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius= "50dp"
+            app:cardBackgroundColor="@color/purple_700"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="80dp"
+                android:text="x"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:layout_height="80dp"/>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_subtraction"
+            app:layout_constraintTop_toBottomOf="@id/card_multiplication"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius= "50dp"
+            app:cardBackgroundColor="@color/purple_700"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="80dp"
+                android:text="-"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:layout_height="80dp"/>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_addition"
+            app:layout_constraintTop_toBottomOf="@id/card_subtraction"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius= "50dp"
+            app:cardBackgroundColor="@color/purple_700"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="80dp"
+                android:text="+"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:layout_height="80dp"/>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_equals"
+            app:layout_constraintTop_toBottomOf="@id/card_addition"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius= "50dp"
+            app:cardBackgroundColor="@color/Orange"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="80dp"
+                android:text="="
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:layout_height="80dp"/>
         </com.google.android.material.card.MaterialCardView>
 
 
